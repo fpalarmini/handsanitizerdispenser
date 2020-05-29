@@ -1,0 +1,25 @@
+#######################################
+# Syntax Coloring Map Dispenser
+#######################################
+
+#######################################
+# Datatypes (KEYWORD1)
+#######################################
+
+Dispenser	KEYWORD1	Dispenser
+
+#######################################
+# Methods and Functions (KEYWORD2)
+#######################################
+setPinTrigger	KEYWORD2
+setPinEcho	KEYWORD2
+setPinPWMServo	KEYWORD2
+setQuantidadeVezesAcionarDispenser	KEYWORD2
+setDistanciaEmCentimetrosParaAcionar	KEYWORD2
+configurarDispenser	KEYWORD2
+acionarDispenser	KEYWORD2
+temMaosNaFrenteDoDispenser  KEYWORD2
+
+#######################################
+# Constants (LITERAL1)
+#######################################
