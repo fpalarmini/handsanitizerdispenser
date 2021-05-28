@@ -8,6 +8,9 @@ void setup()
     dispenser.setDistanciaEmCentimetrosParaAcionar(5);
     dispenser.setPinEcho(13);
     dispenser.setPinTrigger(12);
+    dispenser.setPinLED(8);
+    dispenser.setPinBuzzer(10);
+    dispenser.setPossuiSensorTemperatura(true);
     dispenser.setQuantidadeVezesAcionarDispenser(2);
     dispenser.configurarDispenser();
 }
@@ -21,5 +24,6 @@ void loop()
         //aciona o dispenser
         dispenser.acionarDispenser();
     }
+
     delay(500);
 }
